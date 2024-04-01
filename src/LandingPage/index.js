@@ -109,7 +109,7 @@ const LandingPage = () => {
         </Header>
         <Hero>
           <ContentContainer>
-            <HeroMain>React Image Annotate</HeroMain>
+            <HeroMain>React Multiple Image Annotate</HeroMain>
             <HeroSub>
               Powerful React component for image annotations with bounding
               boxes, tagging, classification, multiple images and polygon
