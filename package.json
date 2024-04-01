@@ -1,6 +1,6 @@
 {
   "name": "react-multiple-image-annotate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
