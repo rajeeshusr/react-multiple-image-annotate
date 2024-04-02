@@ -30,7 +30,8 @@
     "shallow-equal": "^1.2.1",
     "storybook": "^5.3.14",
     "transformation-matrix-js": "^2.7.6",
-    "use-event-callback": "^0.1.0"
+    "use-event-callback": "^0.1.0",
+    "styled-components": "6.1.8"
   },
   "peerDependencies": {
     "react": "^17.0.2",

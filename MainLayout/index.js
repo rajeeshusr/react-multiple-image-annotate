@@ -4,7 +4,7 @@ import React, { useRef, useCallback } from "react";
 import { makeStyles, styled } from "@material-ui/core/styles";
 import ImageCanvas from "../ImageCanvas";
 import styles from "./styles";
-import useKey from "use-key-hook";
+// import useKey from "use-key-hook";
 import classnames from "classnames";
 import { useSettings } from "../SettingsProvider";
 import SettingsDialog from "../SettingsDialog"; // import Fullscreen from "../Fullscreen"
@@ -95,13 +95,13 @@ export var MainLayout = function MainLayout(_ref2) {
     nextImage = state.images[currentImageIndex + 1];
   }
 
-  useKey(function () {
-    return dispatch({
-      type: "CANCEL"
-    });
-  }, {
-    detectKeys: [27]
-  });
+  // useKey(function () {
+  //   return dispatch({
+  //     type: "CANCEL"
+  //   });
+  // }, {
+  //   detectKeys: [27]
+  // });
   var isAVideoFrame = activeImage && activeImage.frameTime !== undefined;
   var innerContainerRef = useRef();
   var hotkeyHandlers = useDispatchHotkeyHandlers({
