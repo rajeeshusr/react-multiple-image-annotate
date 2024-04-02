@@ -1,6 +1,6 @@
 {
   "name": "react-multiple-image-annotate",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/free-solid-svg-icons": "^5.6.3",
@@ -33,8 +33,8 @@
     "styled-components": "^6.1.8"
   },
   "peerDependencies": {
-    "react": "^18.0.2",
-    "react-dom": "^18.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "homepage": "react-multiple-image-annotate",
   "repository": {
