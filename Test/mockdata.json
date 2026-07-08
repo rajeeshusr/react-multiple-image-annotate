@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "type": "scatter",
+            "mode": "lines+markers",
+            "name": "Carbon Emissions",
+            "x": [
+                "2020",
+                "2021",
+                "2022",
+                "2023",
+                "2024"
+            ],
+            "y": [
+                12000,
+                11500,
+                11000,
+                9500,
+                8700
+            ],
+            "line": {
+                "shape": "linear"
+            },
+            "marker": {
+                "size": 8
+            }
+        }
+    ],
+    "layout": {}
+}
